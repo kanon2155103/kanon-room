@@ -1,1 +1,1 @@
-<?php include_once("kanon-room/kanon-room.html"); ?>
+<?php include_once("kanon-room.html"); ?>
