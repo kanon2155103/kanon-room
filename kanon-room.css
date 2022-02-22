@@ -64,6 +64,7 @@ body {
 .about-content {
 	display: flex;
 	margin: 0px 30px 30px 30px;
+	max-width: 100%;
 	justify-content: center;
 }
 .profile {
@@ -79,10 +80,10 @@ body {
 	max-height: 180px;
 }
 .name {
-	font-size: 4vh;
+	font-size: 4vmin;
 }
 .discussion {
-	font-size: 2.5vh;
+	font-size: 2.5vmin;
 }
 
 .works-content {
@@ -178,10 +179,10 @@ a {
 		max-height: 180px;
 	}
 	.name {
-		font-size: 4vh;
+		font-size: 4vimin;
 	}
 	.discussion {
-		font-size: 2.5vh;
+		font-size: 1vimin;
 	}
 
 	.works-content {
@@ -204,5 +205,26 @@ a {
 	}
 	.programs-text {
 		margin: -55px 0px 0px 0px;
+	}
+
+	.contact-content {
+		margin: 0px 30px 30px 30px;
+	}
+	.contact-item {
+		display: flex;
+		justify-content: center;
+	}
+	.twitter-item, .pixiv-item {
+		margin: 0px 5% 0px 0px;
+	}
+	.github-item {
+		margin: 0px 0px 0px 0px;
+	}
+	.contact-image {
+		max-width: 40px;
+	}
+	.mail {
+		text-align: center;
+		font-size: 1vaimin;
 	}
 }
