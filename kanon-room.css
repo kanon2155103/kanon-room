@@ -150,7 +150,7 @@ a {
 @media screen and (max-width: 600px) {
 	.about-content {
 		display: block;
-		margin: 0px 30px 30px 30px;
+		margin: 0px 20px 20px 20px;
 		text-align: center;
 	}
 	.profile {
@@ -173,7 +173,7 @@ a {
 	}
 
 	.works-content {
-		margin:0px 30px 30px 30px;
+		margin:0px 20px 20px 20px;
 	}
 	.works-item {
 		display: block;
@@ -196,7 +196,7 @@ a {
 	}
 
 	.contact-content {
-		margin: 0px 30px 30px 30px;
+		margin: 0px 20px 20px 20px;
 	}
 	.contact-item {
 		display: flex;
