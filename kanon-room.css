@@ -18,6 +18,7 @@ body {
 	letter-spacing: 0.1em;
 }
 .title {
+	font-size: 18px;
 	margin-left: 45px;
 	width: 100%;
 	display: flex;
@@ -62,23 +63,30 @@ body {
 
 .about-content {
 	display: flex;
-	margin: 30px;
+	margin: 0px 30px 30px 30px;
 	justify-content: center;
 }
 .profile {
-	flex: 2;
-	margin-right: 10%;
+	margin-right:5%;
+	padding-top: 15px;
 }
 .profile-img {
-	max-width: 100%;
+	flex: 1;
+	max-width: 180px;
 	border-radius: 10%;
 }
 .introduction {
-	flex: 4;
+	max-height: 180px;
+}
+.name {
+	font-size: 4vh;
+}
+.discussion {
+	font-size: 2.5vh;
 }
 
 .works-content {
-	margin:30px;
+	margin:0px 30px 30px 30px;
 }
 .works-item {
 	display: flex;
@@ -100,7 +108,7 @@ body {
 }
 
 .contact-content {
-	margin: 30px;
+	margin: 0px 30px 30px 30px;
 }
 .contact-item {
 	display: flex;
