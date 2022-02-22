@@ -85,11 +85,11 @@ body {
 	justify-content: center;
 }
 .arts-item {
-	margin: 0px 10% 0px 0px;
+	margin: 0px 10% 30px 0px;
 	max-width: 100%;
 }
 .programs-item {
-	margin: 0px 0px 0px 0px;
+	margin: 0px 0px 30px 0px;
 	max-width: 100%;
 }
 .arts-text {
