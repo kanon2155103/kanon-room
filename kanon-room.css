@@ -72,7 +72,6 @@ body {
 	padding-top: 15px;
 }
 .profile-img {
-	flex: 1;
 	max-width: 180px;
 	border-radius: 10%;
 }
@@ -154,11 +153,9 @@ a {
 		text-align: center;
 	}
 	.profile {
-		margin-right:5%;
 		padding-top: 15px;
 	}
 	.profile-img {
-		flex: 1;
 		max-width: 180px;
 		border-radius: 10%;
 	}
