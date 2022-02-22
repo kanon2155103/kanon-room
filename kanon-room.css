@@ -18,8 +18,11 @@ body {
 	letter-spacing: 0.1em;
 }
 .title {
-	margin-left: 40px;
+	margin-left: 45px;
+	width: 100%;
+	display: flex;
 	justify-content: center;
+	align-items: center;
 }
 .menu {
 	margin: 0 0 0 auto;
