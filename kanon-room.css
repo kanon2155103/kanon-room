@@ -44,7 +44,7 @@ body {
 }
 .about, .works, .contact {
 	margin: 90px 60px;
-	padding: 10px;
+	padding: 5vh;
 	background: rgba(255, 255, 255, 0.8);
 	border-radius: 10px;
 }
@@ -148,19 +148,6 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-	.about-content, .works-item {
-		display: block;
-		text-align: center;
-		margin: 0px;
-	}
-	.arts-item {
-		margin: 0, 0, 20px, 0;
-	}
-	.programs-item {
-		margin: 0;
-	}
-
-
 	.about-content {
 		display: block;
 		margin: 0px 30px 30px 30px;
@@ -190,7 +177,8 @@ a {
 	}
 	.works-item {
 		display: block;
-		justify-content: center;
+		text-align: center;
+		margin: 0px;
 	}
 	.arts-item {
 		margin: 0px 0px 55px 0px;
@@ -225,6 +213,6 @@ a {
 	}
 	.mail {
 		text-align: center;
-		font-size: 1vaimin;
+		font-size: 1vimin;
 	}
 }
