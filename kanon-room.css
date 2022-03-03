@@ -114,14 +114,18 @@ body {
 	display: flex;
 	justify-content: center;
 }
-.twitter-item, .pixiv-item {
-	margin: 0px 5% 0px 0px;
+.twitter-item {
+	margin: 0 40px 0 0;
+}
+
+.pixiv-item {
+	margin: 0 40px 0 0;
 }
 .github-item {
-	margin: 0px 0px 0px 0px;
+	margin: 0 0% 0 0;
 }
 .contact-image {
-	max-width: 40px;
+	max-width: 30px;
 }
 .mail {
 	text-align: center;
@@ -147,16 +151,12 @@ a {
 }
 
 @media screen and (max-width: 600px) {
-	.main {
-		background: #ffeeee;
-	}
 	.main-content {
 		margin: auto;
 	}
 	.about, .works, .contact {
 		margin: 90px 60px;
 		padding: 10px;
-		background: rgba(255, 255, 255, 0.8);
 		border-radius: 10px;
 		text-align: start;
 		align-items: center;
@@ -222,15 +222,6 @@ a {
 	.contact-item {
 		display: flex;
 		justify-content: center;
-	}
-	.twitter-item, .pixiv-item {
-		margin: 0px 5% 0px 0px;
-	}
-	.github-item {
-		margin: 0px 0px 0px 0px;
-	}
-	.contact-image {
-		max-width: 40px;
 	}
 	.mail {
 		text-align: center;
